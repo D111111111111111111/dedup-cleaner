@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dedup Cleaner</string>
+    <string name="status_idle">Elige un umbral de similitud y pulsa Analizar.</string>
+    <string name="scan">Analizar duplicados</string>
+    <string name="threshold_70">70%</string>
+    <string name="threshold_80">80%</string>
+    <string name="threshold_90">90%</string>
+    <string name="group_exact">Duplicados exactos · %1$d archivos</string>
+    <string name="group_similar">Parecidos · %1$d archivos · %2$d%%</string>
+    <string name="mark_delete">Eliminar</string>
+    <string name="thumb_desc">Miniatura del archivo</string>
+    <string name="delete_button">Eliminar %1$d archivos (%2$.1f MB)</string>
+    <string name="delete_button_idle">Eliminar seleccionados</string>
+    <string name="delete_done">Archivos eliminados</string>
+    <string name="perm_denied">Sin permiso de acceso a fotos/videos no se puede analizar.</string>
+    <string name="scan_done">Listo: %1$d grupos exactos, %2$d grupos parecidos</string>
+</resources>
