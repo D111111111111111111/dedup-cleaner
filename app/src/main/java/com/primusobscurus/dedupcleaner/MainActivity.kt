@@ -154,8 +154,10 @@ class MainActivity : AppCompatActivity() {
         if (Build.VERSION.SDK_INT >= 30) {
             val uris = selected.map { it.uri }
             MediaStore.createDeleteRequest(contentResolver, uris).let { pending ->
-                deleteLauncher.launch(pending.intentSender)
-            }
+    deleteLauncher.launch(
+        IntentSenderRequest.Builder(pending.intentSender).build()
+    )
+}
         } else {
             scope.launch {
                 withContext(Dispatchers.IO) {
